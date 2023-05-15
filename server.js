@@ -20,4 +20,9 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
+app.get('/robots.txt', (req, res) => {
+  // Allow all robots
+  res.send('User-agent: *\nAllow: /')
+})
+
 app.listen(port, () => console.log(`Listening on ${port}`))
