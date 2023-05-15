@@ -20,4 +20,4 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
-app.listen(port, () => console.log(`[ip] listening on ${port}`))
+app.listen(port, () => console.log(`Listening on ${port}`))
