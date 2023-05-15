@@ -4,7 +4,7 @@
 # license that can be found in the LICENSE file.
 
 IMAGE_NAME="gpt-browsing-tools"
-CONTAINER_NAME="gpt-browsing-tools-adamkdean-co-uk"
+CONTAINER_NAME="gpt-browsing-tools"
 HOSTNAME="gpt-browsing-tools.adamkdean.co.uk"
 
 # First, build the new image
