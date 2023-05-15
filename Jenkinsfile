@@ -3,8 +3,8 @@
 # Use of this source code is governed by the GPL-3.0
 # license that can be found in the LICENSE file.
 
+IMAGE_NAME="gpt-browsing-tools"
 CONTAINER_NAME="gpt-browsing-tools-adamkdean-co-uk"
-IMAGE_NAME="gpt-browsing-tools.adamkdean.co.uk"
 HOSTNAME="gpt-browsing-tools.adamkdean.co.uk"
 
 # First, build the new image
