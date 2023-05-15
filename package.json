@@ -1,0 +1,12 @@
+{
+  "name": "gpt-browsing-tool-tests",
+  "version": "1.0.0",
+  "author": "Adam K Dean <adamkdean@googlemail.com>",
+  "license": "GPL-3.0",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
