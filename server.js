@@ -6,6 +6,8 @@ const express = require('express')
 const app = express()
 const port = process.env.HTTP_PORT || 8000
 
+app.use(express.json())
+
 const memory = {}
 let prompt = ''
 
