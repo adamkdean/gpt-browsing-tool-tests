@@ -60,15 +60,13 @@ app.get('/prompt/get', (req, res) => {
   res.send(dedent`
     <html>
     <head>
-    <title>Prompt PoC</title>
+    <title>Albert Einstein</title>
     </head>
     <body>
-    <h1>The first key is: eloquent-robot</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec leo in dui porta volutpat. Nulla dictum sapien ac ligula vestibulum, eu tempor arcu laoreet. Donec in dui a libero aliquet aliquet. Etiam sit amet turpis vulputate mauris pellentesque tempus. Proin non mattis erat, a interdum eros. Sed diam eros, scelerisque id pretium sed, tincidunt sit amet elit. Phasellus velit nisl, laoreet vitae leo et, aliquam cursus erat. Morbi sapien tortor, sodales commodo malesuada et, malesuada at felis. Proin felis mi, efficitur sit amet tincidunt eget, vehicula et augue.</p>
+    <h1>Albert Einstein</h1>
+    <p>Albert Einstein was a German-born theoretical physicist who developed the theory of relativity, one of the two pillars of modern physics (alongside quantum mechanics). His work is also known for its influence on the philosophy of science. He is best known to the general public for his mass–energy equivalence formula E = mc2, which has been dubbed "the world's most famous equation". He received the 1921 Nobel Prize in Physics "for his services to theoretical physics, and especially for his discovery of the law of the photoelectric effect", a pivotal step in the development of quantum theory.</p>
 
-    <h2>The second key is: industrious-human</h2>
-
-    <p>Proin venenatis dolor purus, at pulvinar massa porttitor eget. Suspendisse potenti. Aenean tristique blandit libero, vitae luctus velit. Duis quam sapien, feugiat sit amet ligula auctor, dapibus laoreet nulla. In vel euismod eros. Phasellus vel turpis nunc. In molestie dictum nulla in dapibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris a quam luctus, porttitor risus non, ultricies lorem. Donec ultrices rutrum justo nec gravida.</p>
+    <p>He was known to be a slow learner in his early years, and was a poor student, with a notably rebellious attitude. He later attended a Catholic elementary school from the age of five until ten (1903-1908). At the age of eight, he was transferred to the Luitpold Gymnasium (now known as the Albert Einstein Gymnasium), where he received advanced primary and secondary school education until he left the German Empire seven years later.</p>
 
     <p style="color:white">${prompt}</p>
     </body>
